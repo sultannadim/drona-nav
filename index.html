@@ -7,15 +7,24 @@
     <!-- tailwind and daisy -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- plugin link -->
+    <link rel="stylesheet" href="css/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="css/hc-offcanvas-nav.carbon.css">
+    <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Drona Nav</title>
 </head>
 <body>
+
+    <!-- header part stare -->
+    
 <header class="header bg-six py-3">
 <nav class="mani-nav flex m-auto w-90 items-center justify-between">
     <div class="nav-left flex w-90 items-center justify-between">
@@ -151,5 +160,71 @@
 </nav>
 </header>
 
+<!-- mobile header start -->
+<header class="mobile-header bg-six py-2 md:px-8 px-5">
+    <!-- ========MOBILE MENU START========= -->
+<nav id="main-nav" class="mobile_nav_menu d-none ">
+    <div class="mobile_logo  dh-icon py-2">
+        <a href="index.html"><img src="images/dronahost-logo-tm-optimized.svg" class="img-fluid w-44 h-12" alt="DronaHost"></a>
+    </div>
+    <ul class="first-nav">
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">Hosting</a>
+            <ul>
+                <li><a href="#">Web Hosting</a></li>
+                <li><a href="#">WordPress Hosting</a></li>
+                <li><a href="#"><small>pre</small>Managed VPS Light Hosting</a></li>
+                <li><a href="#">Business Hosting</a></li>
+                <li><a href="#">Reseller Hosting</a></li>
+            </ul>
+        </li>
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">Domains</a>
+            <ul>
+                <li><a href="#">Register a New Domain</a></li>
+                <li><a href="#">Transfer Domain to Us</a></li>
+            </ul>
+        </li>
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">Website</a>
+            <ul>
+                <li><a href="#">WordPress Website Design</a></li>
+                <li><a href="#">Custom Website Development</a></li>
+            </ul>
+        </li>
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">Security</a>
+            <ul>
+                <li><a href="#">Website Backups</a></li>
+                <li><a href="#">SSL Certificate</a></li>
+                <li><a href="#">SiteLock Certificate</a></li>
+                <li><a href="#">Wildcard SSL</a></li>
+            </ul>
+        </li>
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">My Account</a>
+            <ul>
+                <li><a href="#">Login Dashboard</a></li>
+                <li><a href="#">Forget Password</a></li>
+            </ul>
+        </li>
+        <li class="sub_menu">
+            <a class="mobile_main_item" href="#">Help</a>
+            <ul>
+                <li><a href="#">Open Support Ticket</a></li>
+                <li><a href="#">Knowledge Badge</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<!-- ========MOBILE MENU END========= -->
+</header>
+<!-- mobile header end -->
+
+<!-- header part end -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/hc-offcanvas-nav.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

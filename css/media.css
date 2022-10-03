@@ -5,6 +5,18 @@
         display: none;
     }
     /* nav end */
+    /*mobile menu part start*/
+    .hc-nav-trigger.hc-nav-1 {
+    
+        left: 85%;
+    }
+    .mobile-header img{
+        width: 160px;
+    }
+    .mobile-header{
+        display: block;
+    }
+        /*mobile menu part end*/
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -13,7 +25,15 @@
     .header{
         display: none;
     }
+    .mobile-header{
+        display: block;
+    }
+    .hc-nav-trigger.hc-nav-1 {
+    
+        left: 90%;
+    }
     /* nav end */
+    
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -21,6 +41,9 @@
     /* nav start */
     .header{
         display: none;
+    }
+    .mobile-header{
+        display: block;
     }
     /* nav end */
  }
